@@ -30,7 +30,7 @@ const Interests: React.FC<InterestsProps> = ({ show, onClose }) => {
         </button>
         <p className="text-2xl text-[#e3d7b5] leading-relaxed whitespace-pre-wrap">
           <span className="text-[#86C232] text-3xl">&gt;</span>{' '}
-          I'm all about tech—curious, hands-on, and always exploring what's next. I game hard, ride fast, read thrillers that keep me up all night, and love random trips. Oh, and I totally dismantle electronics for fun — no reason, just vibes
+          I&apos;m all about tech—curious, hands-on, and always exploring what&apos;s next. I game hard, ride fast, read thrillers that keep me up all night, and love random trips. Oh, and I totally dismantle electronics for fun — no reason, just vibes
           <span className="blink">_</span>
         </p>
       </div>

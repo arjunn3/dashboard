@@ -46,14 +46,18 @@ export default function ProfileModal({
           <div>
             <h4 className={`text-3xl font-semibold ${vt323.className}`}>{'> '}About</h4>
             <p className="text-white text-lg">
-              Hello! I'm Arjun, a Computer Science Engineering student passionate about AI, Machine Learning, and cutting-edge technology. With a background as a national and international Taekwondo medalist and a deep interest in developing AI-driven projects, I bring both discipline and creativity to my work. I strive to solve real-world problems through tech while pushing my limits both on the mat and in code.
+              Hello! I&apos;m Arjun, a Computer Science Engineering student passionate about AI,
+              Machine Learning, and cutting-edge technology. With a background as a national and
+              international Taekwondo medalist and a deep interest in developing AI-driven projects,
+              I bring both discipline and creativity to my work. I strive to solve real-world
+              problems through tech while pushing my limits both on the mat and in code.
             </p>
           </div>
 
           {/* Education */}
           <div>
             <h4 className={`text-3xl font-semibold ${vt323.className}`}>{'> '}Education</h4>
-            <p className="text-white text-lg">Bachelor's in Computer Science - SIT, Tumkur</p>
+            <p className="text-white text-lg">Bachelor&apos;s in Computer Science - SIT, Tumkur</p>
           </div>
 
           {/* Personality */}

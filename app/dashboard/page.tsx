@@ -32,7 +32,7 @@ const SectionCard = memo(({ title, onClick }: { title: string; onClick?: () => v
   </>
 ));
 
-export default function Dashboard() {
+function Dashboard() {
   const router = useRouter();
   const [showWorkExp, setShowWorkExp] = useState(false);
   const [showInterests, setShowInterests] = useState(false);
@@ -99,3 +99,7 @@ export default function Dashboard() {
     </div>
   );
 }
+
+Dashboard.displayName = "Dashboard";
+
+export default Dashboard;
