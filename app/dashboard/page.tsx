@@ -32,8 +32,6 @@ const SectionCard = memo(({ title, onClick }: { title: string; onClick?: () => v
   </>
 ));
 
-SectionCard.displayName = 'SectionCard';
-
 function Dashboard() {
   const router = useRouter();
   const [showWorkExp, setShowWorkExp] = useState(false);
