@@ -31,7 +31,6 @@ const SectionCard = memo(({ title, onClick }: { title: string; onClick?: () => v
     <div className="divider my-1" />
   </>
 ));
-SectionCard.displayName = 'SectionCard';
 
 function Dashboard() {
   const router = useRouter();
