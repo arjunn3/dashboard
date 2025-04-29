@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useCallback, memo } from 'react';
+import React, { useState, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import { VT323 } from 'next/font/google';
 import WorkExperienceModal from '../../components/sections/WorkExp';
@@ -14,7 +14,7 @@ import { Toaster } from 'react-hot-toast';
 const vt323 = VT323({ subsets: ['latin'], weight: ['400'], display: 'swap' });
 
 // memoized card so it only re-renders if title or onClick change
-const SectionCard = memo(({ title, onClick }: { title: string; onClick?: () => void }) => (
+const SectionCard = ({ title, onClick }: { title: string; onClick?: () => void }) => (
   <>
     <div
       onClick={onClick}
@@ -30,7 +30,7 @@ const SectionCard = memo(({ title, onClick }: { title: string; onClick?: () => v
     </div>
     <div className="divider my-1" />
   </>
-));
+);
 
 function Dashboard() {
   const router = useRouter();
@@ -100,6 +100,5 @@ function Dashboard() {
   );
 }
 
-Dashboard.displayName = "Dashboard";
 
 export default Dashboard;
